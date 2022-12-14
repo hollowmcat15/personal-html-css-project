@@ -1,0 +1,89 @@
+.Div {
+    border: 5px red;
+    background-color: #7C52FF;
+    text-align: left;
+    color: white;
+}
+  
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    background-color: #7C52FF;
+} 
+  
+body {
+  	background-image: url('image/background.jpg');
+  	background-size: cover;
+  	font-family: Helvetica;
+  	color: white;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 10px 10px;
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    background-color: #A285FF;
+    color: white;
+}
+
+.header a.active {
+    background-color: #7C52FF;
+    color: white;
+}
+
+.header-right {
+    float: right;
+}
+
+#redbutton {
+    background-color: #f44336;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#smallbutton {
+    background-color: #7C52FF;
+    color: white;
+    padding: 5px 7.5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#footer {
+    float: left;
+    color: black;
+    text-align: bottom;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px; 
+}
+
